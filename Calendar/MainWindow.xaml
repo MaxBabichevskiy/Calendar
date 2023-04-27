@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calendar"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="1000">
+        Title="MainWindow" Height="600" Width="1000">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -56,16 +56,6 @@
         <DockPanel Grid.Row="1" Grid.Column="8" >
             <Label Content="Воскресенье" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Gray"></Label>
         </DockPanel>
-
-
-
-
-
-
-
-
-
-
 
         <DockPanel Grid.Row="2" Grid.Column="2" >
             <WrapPanel DockPanel.Dock="Top" Height="5" Background="DarkBlue"></WrapPanel>
@@ -243,6 +233,9 @@
         </DockPanel>
 
 
+        <Image Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="8" Stretch="UniformToFill">
+            <Image.Source>/panel.jpg</Image.Source>
+        </Image>
 
     </Grid>
 </Window>
