@@ -29,6 +29,33 @@
             <RowDefinition Height="60*"></RowDefinition>
         </Grid.RowDefinitions>
 
+        <DockPanel Grid.Row="1" Grid.Column="2" >
+            <Label Content="Понедельник" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Gray"></Label>
+        </DockPanel>
+
+        <DockPanel Grid.Row="1" Grid.Column="3" >
+            <Label Content="Вторник" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Gray"></Label>
+        </DockPanel>
+
+        <DockPanel Grid.Row="1" Grid.Column="4" >
+            <Label Content="Среда" HorizontalAlignment="Left" VerticalAlignment="Top"   Foreground="Gray"></Label>
+        </DockPanel>
+
+        <DockPanel Grid.Row="1" Grid.Column="5" >
+            <Label Content="Четверг" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Gray"></Label>
+        </DockPanel>
+
+        <DockPanel Grid.Row="1" Grid.Column="6" >
+            <Label Content="Пятница" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Gray"></Label>
+        </DockPanel>
+
+        <DockPanel Grid.Row="1" Grid.Column="7" >
+            <Label Content="Субота" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Gray"></Label>
+        </DockPanel>
+
+        <DockPanel Grid.Row="1" Grid.Column="8" >
+            <Label Content="Воскресенье" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Gray"></Label>
+        </DockPanel>
 
 
     </Grid>
