@@ -97,5 +97,8 @@
   <ItemGroup>
     <Resource Include="panel.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="topPanel.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

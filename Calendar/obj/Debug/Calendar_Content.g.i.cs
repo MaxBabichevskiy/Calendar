@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("panel.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("toppanel.png")]
 
 
